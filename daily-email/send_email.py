@@ -64,7 +64,7 @@ def generate_wellness_check():
 # Morning message
 def send_random_good_morning():
     message = generate_good_morning()
-    send_email("Automated Good Morning Reminder", message, "niranjaniju0789@gmail.com")  # Replace with recipient email
+    send_email("Automated Good Morning Reminder", message, "niranjanniju0789@gmail.com")  # Replace with recipient email
 
 # Good night message
 def send_good_night_reminder():
