@@ -1,0 +1,7 @@
+services:
+  - type: cron
+    name: daily-email-sender
+    env: python
+    schedule: "@daily"
+    buildCommand: ""
+    startCommand: "python send_email.py"
